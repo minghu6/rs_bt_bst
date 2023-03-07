@@ -1,0 +1,13 @@
+[package]
+name = "coll-bt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+itertools = "=0.10.1"
+either = "1.6.1"
+rand = "^0.7"
+serde = { version = "1.*", features = ["derive"] }
+
+[lib]
+doctest = false
